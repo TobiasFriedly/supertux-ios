@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Sinisa3Games <cybersinisa@gmail.com>, 2018
+# Slobodan Simić <slsimic@gmail.com>, 2016,2018
+# Slobodan Simić <slsimic@gmail.com>, 2014
+# Slobodan Simić <slsimic@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2018-11-05 23:45+0100\n"
+"PO-Revision-Date: 2018-11-23 14:14+0000\n"
+"Last-Translator: Sinisa3Games <cybersinisa@gmail.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/arctic-games/supertux/language/sr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: data/levels/legacy_forest_v063/Bouncy_Coils.stl:3
+msgid "Bouncy Coils"
+msgstr "Скакутавци"
+
+#: data/levels/legacy_forest_v063/Bye_Bye_Forest.stl:3
+msgid "Bye Bye Forest"
+msgstr "Па-па шумица"
+
+#: data/levels/legacy_forest_v063/Crumbling_Path.stl:3
+msgid "Crumbling Path"
+msgstr "Одроњени пут"
+
+#: data/levels/legacy_forest_v063/Dark_Tunnel.stl:3
+msgid "The Dark Tunnel"
+msgstr "Мрачни тунел"
+
+#: data/levels/legacy_forest_v063/Deeper_Down.stl:3
+msgid "Deeper Down"
+msgstr "Још дубље"
+
+#: data/levels/legacy_forest_v063/El_Castillo.stl:3
+msgid "A Short Visit to El Castillo"
+msgstr "Кратка посета Ел Кастиљу"
+
+#: data/levels/legacy_forest_v063/Find_Big_Fish.stl:3
+msgid "Find the Bigger Fish!"
+msgstr "Нађи крупнију рибу!"
+
+#: data/levels/legacy_forest_v063/Find_Big_Fish.stl:446
+msgid "-A big fish... for you."
+msgstr "-Крупна риба... за тебе."
+
+#: data/levels/legacy_forest_v063/Getting_Hot.stl:3
+msgid "It's Getting Hot!"
+msgstr "Постаје вруће"
+
+#: data/levels/legacy_forest_v063/Ghostly_World.stl:3
+msgid "A Ghostly World"
+msgstr "Свет духова"
+
+#: data/levels/legacy_forest_v063/Going_Underground.stl:3
+msgid "Going Underground"
+msgstr "У подземљу"
+
+#: data/levels/legacy_forest_v063/Kneep_Deep.stl:3
+msgid "Kneep-deep in the depth"
+msgstr "Дубоко у дубини"
+
+#: data/levels/legacy_forest_v063/Mouldy_Grotto.stl:3
+msgid "A Mouldy Grotto"
+msgstr "Блатњаво гротло"
+
+#: data/levels/legacy_forest_v063/Penguin_Grow_Trees.stl:3
+msgid "Penguins don't grow on Trees"
+msgstr "Пингвини не расту на дрвећу"
+
+#: data/levels/legacy_forest_v063/Rabbit_Hole.stl:3
+msgid "Down The Rabbit Hole"
+msgstr "Низ зечију рупу"
+
+#: data/levels/legacy_forest_v063/Rabbit_Hole.stl:46
+msgid ""
+"-Oh no!\n"
+"#The path is blocked! It\n"
+"#seems that the only way\n"
+"#leads through that dark\n"
+"#hole in the ground..."
+msgstr "-О не!\n#Пут је блокиран!\n#Чини се да једини\n#пут води кроз ту\n#рупу у земљи..."
+
+#: data/levels/legacy_forest_v063/Rabbit_Hole.stl:55
+msgid "-Are you lost?"
+msgstr "-Осећаш се изгубљено?"
+
+#: data/levels/legacy_forest_v063/Scary_Place.stl:3
+msgid "What is this Place?"
+msgstr "Какво је ово место?"
+
+#: data/levels/legacy_forest_v063/This_Forest_is_Haunted.stl:3
+msgid "This Forest is Haunted"
+msgstr "Ова шума је уклета"
+
+#: data/levels/legacy_forest_v063/Three_Sheets.stl:3
+msgid "Three sheets to the wind"
+msgstr "Три листа на ветру"
+
+#: data/levels/legacy_forest_v063/Treasure_Skies.stl:3
+msgid "Treasure in the skies"
+msgstr "Благо на небесима"
+
+#: data/levels/legacy_forest_v063/Tree_Fortress.stl:3
+msgid "Tree Fortress"
+msgstr "Три тврђаве"
+
+#: data/levels/legacy_forest_v063/Tux_Builder.stl:3
+msgid "Tux the Builder"
+msgstr "Такс градитељ"
+
+#: data/levels/legacy_forest_v063/Tux_Builder.stl:53
+msgid ""
+"-Portable Rocks:\n"
+"\n"
+"#Tux can carry some rocks.\n"
+"#When you are next to one press the ACTION key and keep pressed while carrying the rock. Release the key to release the rock."
+msgstr "-Портабилно Камење:\n\n#Такс може да носи неко камење.\n#Када си ти поред једног килкни тастер АКЦИЈА и држи док носиш камен. Пусти тастер да пустиш камен."
+
+#: data/levels/legacy_forest_v063/Up_and_Down.stl:3
+msgid "Up and Down"
+msgstr "Горе доле"
+
+#: data/levels/legacy_forest_v063/Walking_Leaves.stl:3
+msgid "Walking Leaves"
+msgstr "Шетајуће лишће"
+
+#: data/levels/legacy_forest_v063/Welcome_Forest.stl:3
+msgid "Welcome to the Forest"
+msgstr "Добродошли у шуму"
+
+#: data/levels/legacy_forest_v063/castle.stl:3
+msgid "Iceberg Fortress"
+msgstr "Тврђава леденог брега"
+
+#: data/levels/legacy_forest_v063/castledoor.stl:3
+#: data/levels/legacy_forest_v063/dfk-placeholder-1.stl:3
+msgid "NOLOK"
+msgstr "НОЛОК"
+
+#: data/levels/legacy_forest_v063/christophD.stl:3
+msgid "Room of Stars"
+msgstr "Звездарник"
+
+#: data/levels/legacy_forest_v063/dan_morial.stl:3
+msgid "Dan Morial"
+msgstr "Ден Мориал"
+
+#: data/levels/legacy_forest_v063/detour.stl:3
+msgid "Detour"
+msgstr "Обилазница"
+
+#: data/levels/legacy_forest_v063/dfk-level1.stl:3
+msgid "Dark Forest Keep - The Evil Chamber"
+msgstr "Чардак тамне шуме — Соба зла"
+
+#: data/levels/legacy_forest_v063/dfk-level2.stl:3
+msgid "Dark Forest Keep - The Eyes Of Nolok"
+msgstr "Чардак тамне шуме — Нолокове очи"
+
+#: data/levels/legacy_forest_v063/dfk-level3.stl:3
+msgid "Dark Forest Keep - The Black Tower"
+msgstr "Чардак тамне шуме — Црна кула"
+
+#: data/levels/legacy_forest_v063/forest1-grumbel.stl:3
+msgid "Forest Level 1"
+msgstr "Шумски ниво 1"
+
+#: data/levels/legacy_forest_v063/key1.stl:3
+msgid "key 1 water - to be placed behind waterfall"
+msgstr "кључ 1 вода — сместити га иза водопада"
+
+#: data/levels/legacy_forest_v063/key2.stl:3
+msgid "key 2 earth - to be placed underground"
+msgstr "кључ 2 земља — сместити га у подземље"
+
+#: data/levels/legacy_forest_v063/key3.stl:3
+msgid "key 3 wood - to be placed in a big tree"
+msgstr "кључ 3 дрво — сместити га на велико дрво"
+
+#: data/levels/legacy_forest_v063/key4.stl:3
+msgid "key 4 fire - to be placed in a small castle"
+msgstr "кључ 4 ватра — сместити га у мали замак"
+
+#: data/levels/legacy_forest_v063/key5.stl:3
+msgid "key 5 air - to be placed in clouds "
+msgstr "кључ 5 ваздух — сместити га у облаке"
+
+#: data/levels/legacy_forest_v063/level5.stl:3
+msgid "Green Hills"
+msgstr "Зелена брда"
+
+#: data/levels/legacy_forest_v063/level6.stl:3
+msgid "No Name"
+msgstr "Без имена"
+
+#: data/levels/legacy_forest_v063/light+magic.stl:3
+msgid "Light and Magic"
+msgstr "Светлост и магија"
+
+#: data/levels/legacy_forest_v063/owls_revenge.stl:3
+msgid "Owls' Revenge"
+msgstr "Совина освета"
+
+#: data/levels/legacy_forest_v063/roots_woody_roots.stl:3
+msgid "Roots, Woody Roots"
+msgstr "Коренко, Дрвени Коренко"
+
+#: data/levels/legacy_forest_v063/roots_woody_roots.stl:199
+msgid ""
+"-Hint:\n"
+"#If there seems to be\n"
+"#no way to reach a door,\n"
+"#remember that you might\n"
+"#be supposed to come out\n"
+"#of that door..."
+msgstr "-Савет:\n#Ако ти се чини да нема\n#начина да дохватиш врата,\n#упамти да је могуће да\n#треба да изађеш одатле..."
+
+#: data/levels/legacy_forest_v063/scripts_default.txt:2
+msgid "---Insert Cutscene Here---"
+msgstr "---Убаци прелазну сцену овде---"
+
+#: data/levels/legacy_forest_v063/shocking.stl:3
+msgid "Shocking"
+msgstr "Шокантно"
+
+#: data/levels/legacy_forest_v063/underconstruction.stl:3
+msgid "Under Construction"
+msgstr "Радови у току"
+
+#: data/levels/legacy_forest_v063/village.stl:3
+msgid "A Village in the Forest"
+msgstr "Сеоце у шуми"
+
+#: data/levels/legacy_forest_v063/worldmap.stwm:3
+msgid "Forest World"
+msgstr "Шумски свет"
+
+#: data/levels/legacy_forest_v063/worldmap.stwm:147
+msgid "More Worlds will be added later..."
+msgstr "Још светова биће додато касније..."
+
+#: data/levels/legacy_forest_v063/worldmap.stwm:155 data/levels/legacy_forest_v063/worldmap.stwm:162
+#: data/levels/legacy_forest_v063/worldmap.stwm:169 data/levels/legacy_forest_v063/worldmap.stwm:176
+#: data/levels/legacy_forest_v063/worldmap.stwm:183 data/levels/legacy_forest_v063/worldmap.stwm:190
+#: data/levels/legacy_forest_v063/worldmap.stwm:197
+msgid "There is currently no level"
+msgstr "Тренутно нема нивоа"
+
+#: data/levels/legacy_forest_v063/worldmap.stwm:204
+msgid "You Found a Secret Area!"
+msgstr "Пронашао си тајну област!"

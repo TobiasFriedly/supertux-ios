@@ -1,0 +1,499 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Alexander Polyanski, 2025-2026
+# Andrei Stepanov, 2018-2021,2025-2026
+# Artem Krosheninnikov <feeblehamster@gmail.com>, 2013
+# Benjamin Leduc <giby_the_kid@yahoo.fr>, 2013
+# Dmitry Anikonov <starwars32@yandex.ru>, 2016
+# Dmitry <dmitrymq@gmail.com>, 2013
+# Dmitry <dmitrymq@gmail.com>, 2013
+# sdaladman asylum, 2025
+# Темак, 2022
+# Dmitry Anikonov <starwars32@yandex.ru>, 2013,2015
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2026-03-21 04:25+0000\n"
+"PO-Revision-Date: 2013-08-10 23:00+0000\n"
+"Last-Translator: Alexander Polyanski, 2025-2026\n"
+"Language-Team: Russian (http://app.transifex.com/arctic-games/supertux/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: data/levels/world2/ancient_ruin.stl:3
+msgid "Ancient Ruin"
+msgstr "Древняя руина"
+
+#: data/levels/world2/bouncy_coils.stl:3
+msgid "Bouncy Coils"
+msgstr "Скакущие пружины"
+
+#: data/levels/world2/cave_patrol.stl:3
+msgid "Cave Patrol"
+msgstr "Пещерный патруль"
+
+#: data/levels/world2/cave_patrol.stl:147
+msgid ""
+"-Ice Rosette\n"
+"!images/powerups/iceflower/ice_flower-0.png\n"
+"#The ice rosette gives Tux the ability to shoot iceballs that can freeze most creatures.\n"
+"#Frozen creatures can be picked up, carried and thrown!"
+msgstr "-Ледяная Розочка\n!/images/powerups/iceflower/ice_flower-0.png\n#Ледяная розочка даёт Таксу возможность стрелять льдинками, которые замораживают почти все существа\n#Замороженные существа можно подбирать, нести и бросать!"
+
+#: data/levels/world2/collapse_imminent.stl:3
+msgid "Collapse Imminent"
+msgstr "Неизбежное разрушение"
+
+#: data/levels/world2/corrupted_cutscene.stl:3
+msgid "From Afar It Spreads"
+msgstr "Издалека распространяясь"
+
+#: data/levels/world2/crumbling_path.stl:3
+msgid "Crumbling Path"
+msgstr "Рассыпающийся путь"
+
+#: data/levels/world2/drop_ball.stl:3
+msgid "Drop The Ball"
+msgstr "Бросить мячик"
+
+#: data/levels/world2/entangled_roots.stl:3
+msgid "Entangled in Roots"
+msgstr "Окутанный корнями"
+
+#: data/levels/world2/find_bigger_fish.stl:3
+msgid "Find the Bigger Fish!"
+msgstr "Найди рыбу побольше!"
+
+#: data/levels/world2/flooded_chambers.stl:3
+msgid "Flooded Chambers"
+msgstr "Затопленные комнаты"
+
+#: data/levels/world2/floral_blossom.stl:3
+msgid "Floral Blossom"
+msgstr "Цветение растений"
+
+#: data/levels/world2/forest_intro.stl:3
+msgid "A New Location"
+msgstr "Новое расположение"
+
+#: data/levels/world2/ghosttree_boss.stl:3
+msgid "Roots of All Evil"
+msgstr "Корни всякого зла"
+
+#: data/levels/world2/ghosttree_cutscene.stl:3
+msgid "The Root Of The Problem"
+msgstr "Корень проблемы"
+
+#: data/levels/world2/ghosttreewin_cutscene.stl:3
+msgid "Nature Is Healing"
+msgstr "Природа исцеляет"
+
+#: data/levels/world2/going_underground.stl:3
+msgid "Going Underground"
+msgstr "Спускаясь в подземелье"
+
+#: data/levels/world2/granito_village.stl:3
+msgid "Granito Village"
+msgstr "Деревня Гранито"
+
+#: data/levels/world2/hollow_earth.stl:3
+msgid "Hollowed Earth"
+msgstr "Раздолбленная земля"
+
+#: data/levels/world2/home_dead_home.stl:3
+msgid "Home Dead Home"
+msgstr "Дом, мёртвый дом"
+
+#: data/levels/world2/info:2 data/levels/world2/worldmap.stwm:4
+msgid "Rooted Forest"
+msgstr "Корневой лес"
+
+#: data/levels/world2/info:3
+msgid "Tux explores a new land, but a curse impedes his journey."
+msgstr "Такс исследует новую землю, но проклятие мешает его путешествию."
+
+#: data/levels/world2/lost_sanctuary.stl:3
+msgid "Lost Sanctuary"
+msgstr "Затерянное святилище"
+
+#: data/levels/world2/mouldy_grotto.stl:3
+msgid "A Mouldy Grotto"
+msgstr "Затхлый грот"
+
+#: data/levels/world2/mount_crushmore.stl:3
+msgid "Mount Crushmore"
+msgstr "Гора Давибольше"
+
+#: data/levels/world2/owls_skydive_commando.stl:3
+msgid "Owls' Skydive Commando"
+msgstr "Совиный парашютный десант"
+
+#: data/levels/world2/penguin_on_tree.stl:3
+msgid "Penguins Don't Grow On Trees"
+msgstr "Пингвины не растут на деревьях"
+
+#: data/levels/world2/rock_roll.stl:3
+msgid "Rock 'n' Roll"
+msgstr "Рок-н-ролл"
+
+#: data/levels/world2/rock_roll.stl:117
+msgid ""
+"-Rock Shroom\n"
+"!images/powerups/earthflower/earth_flower-0.png\n"
+"#When holding the DOWN key while running, the Rock Shroom grants Tux a rock shield.\n"
+"#In his rock form, Tux is immune to most types of damage. However, if Tux slams into a solid wall his defense will cease, becoming vulnerable again. "
+msgstr "-Каменный Гриб\n!images/powerups/earthflower/earth_flower-0.png\n#Удерживая клавишу ВНИЗ при беге, каменный гриб даст Таксу камменый щит.\n#В каменной форме Такс неуязвим почти ко всему. Но, если Такс разобьется о твердую стену, то его защита остановится, став снова уязвимым."
+
+#: data/levels/world2/root_for_you.stl:3
+msgid "Rooting For You"
+msgstr "Подсечь под корень"
+
+#: data/levels/world2/rooted_tower.stl:3
+msgid "The Rooted Tower"
+msgstr "Укоренившаяся башня"
+
+#: data/levels/world2/scripts_corrupted_cutscene.txt:2
+msgid "Never had Tux been missing sunlight more than ever before."
+msgstr "Никогда ещё Такс так сильно не скучал по солнечному свету, как сейчас."
+
+#: data/levels/world2/scripts_corrupted_cutscene.txt:3
+msgid ""
+"Since the rain had stopped and the sky was clear, Tux hoped to have found a "
+"nice, safe place to take a short break."
+msgstr "Поскольку дождь прекратился и небо прояснилось, Такс надеялся найти хорошее, безопасное место, чтобы сделать небольшой перерыв."
+
+#: data/levels/world2/scripts_corrupted_cutscene.txt:4
+msgid ""
+"Just as he was about to rest, the sudden sound of rustling leaves from a "
+"bush nearby startled Tux."
+msgstr "Как раз когда он собирался отдохнуть, внезапный шуршащий звук листьев из ближайшего куста напугал Такса."
+
+#: data/levels/world2/scripts_corrupted_cutscene.txt:5
+msgid ""
+"He went to investigate and got startled by a Vicious Ivy, tumbling out of "
+"the bushes!"
+msgstr "Он пошёл разобраться, но был напуган Порочным Плющом, выпавшим из кустов!"
+
+#: data/levels/world2/scripts_corrupted_cutscene.txt:6
+msgid ""
+"However, this one looked different. Its usual bright green leaves seemed to "
+"have turned an ailing purple."
+msgstr "Однако этот выглядел иначе. Его обычные ярко-зелёные листья, казалось, приобрели болезненный пурпурный оттенок."
+
+#: data/levels/world2/scripts_corrupted_cutscene.txt:7
+msgid ""
+"Before Tux even had the chance to think about what had happened to the poor "
+"thing, the ground began to shake violently..."
+msgstr "Ещё не успев осознать, что же случилось с беднягой, Такс почувствовал, как земля начала сильно трястись…"
+
+#: data/levels/world2/scripts_corrupted_cutscene.txt:8
+msgid ""
+"Massive purple roots burst through the ground, followed by an onslaught of "
+"many more coming closer and closer!"
+msgstr "Огромные фиолетовые корни прорвались сквозь землю, а за ними следовала целая армия других, которые становились всё ближе и ближе!"
+
+#: data/levels/world2/scripts_corrupted_cutscene.txt:9
+msgid ""
+"Tux panicked! Whatever these roots were, they were covering everything. "
+"Where could he go?"
+msgstr "Такс запаниковал! Чем бы эти корни ни были, они покрывали всё вокруг. Куда двигаться дальше?"
+
+#: data/levels/world2/scripts_corrupted_cutscene.txt:10
+msgid ""
+"But he cannot give up now! Tux could not leave her behind. Not in a place "
+"being overrun by these violent roots."
+msgstr "Но он не может сдаться сейчас! Такс не мог оставить её. Не в месте, которое захлестнули эти жестокие корни."
+
+#: data/levels/world2/scripts_corrupted_cutscene.txt:11
+msgid "He must rescue Penny! He must get to that tower!"
+msgstr "Он должен спасти Пенни! Он должен добраться до той башни!"
+
+#: data/levels/world2/scripts_default.txt:2
+msgid "---Insert Cutscene Here---"
+msgstr "---Заглушка для кат-сцены---"
+
+#: data/levels/world2/scripts_floral_blossom.txt:2
+msgid ""
+"Despite the Ghost Tree's defeat and a sliver of life returning to the once "
+"lush forest, the land was still in shambles."
+msgstr "Несмотря на поражение Призрачного Дерева и возвращение пряди жизни ранее пышному лесу, земля все еще в руинах."
+
+#: data/levels/world2/scripts_floral_blossom.txt:3
+msgid ""
+"The ground was riddled with cracks and crevices. And now one of them was "
+"blocking Tux's path..."
+msgstr "Земля загадана трещинами и щелями. Одна из них вообще преграждала путь Таксу..."
+
+#: data/levels/world2/scripts_floral_blossom.txt:4
+msgid ""
+"Fortunately for him, a Granito, alive and well, revealed themself, excited "
+"to see him on the other side of the crevice."
+msgstr "К счастью, Гранито, который жив каким-то образом, выявился, обрадовавшись видеть его на другой стороне щели."
+
+#: data/levels/world2/scripts_floral_blossom.txt:5
+msgid ""
+"The Granito spoke of 3 groups of his fellow Granito who had gotten lost when"
+" trying to escape the roots to the east coast."
+msgstr "Гранито говорил о трёх группах его Гранито-приятелей, которые тоже заблудились, пытаясь сбежать из корней на восточное побережье."
+
+#: data/levels/world2/scripts_floral_blossom.txt:6
+msgid ""
+"They were swallowed by the earth as the ground collapsed in on itself. If "
+"Tux could help find them they could help him reach the other side."
+msgstr "Их поглотила земля, когда пол просто обрушился. Если бы Такс помог их найти, то они бы помогли ему добраться до другой стороны."
+
+#: data/levels/world2/scripts_floral_blossom.txt:7
+msgid ""
+"Tux agreed to help! Soon after he noticed a dying roots revealing a path "
+"underneath, he began his search for the lost Granito."
+msgstr "Такс согласился помочь! Вскоре после того, как он заметил, как мёртвые корни выявили путь под ними, он начал искать заблудившегося Гранито."
+
+#: data/levels/world2/scripts_floral_blossom.txt:8
+msgid ""
+"With the help of the saved Granito, Tux managed to reach the other side."
+msgstr "С помощью спасенного Гранито, Такс смог добраться до другой стороны."
+
+#: data/levels/world2/scripts_floral_blossom.txt:9
+msgid ""
+"He was glad there were more Granito that had survived the Ghost Tree's "
+"overgrowth."
+msgstr "Он был рад, что там были ещё Гранито, которые выжили разрастание Призрачного Дерева."
+
+#: data/levels/world2/scripts_floral_blossom.txt:10
+msgid ""
+"One of the Granito asked him what a penguin like him was doing so far from "
+"the Antarctic."
+msgstr "Один из Гранито спросил его о том, что здесь делает пингвин, который очень далеко от Антарктики."
+
+#: data/levels/world2/scripts_floral_blossom.txt:11
+msgid ""
+"Tux replied that he was looking for his friend Penny and that she was "
+"captured by an evil creature named \"Nolok\". A name the Granito remembered "
+"unpleasantly..."
+msgstr "Такс ответил, что он ищет свою подругу Пенни и что она была похищена злым существом по имени «Нолок». Имя, которое Гранито запомнил с неприязнью…"
+
+#: data/levels/world2/scripts_floral_blossom.txt:12
+msgid ""
+"The Granito mentioned they knew his homeland. But whether he still called it"
+" his home nor if he held Penny there, they do not know for certain."
+msgstr "Гранито упомянули, что они знают, где его родина. Но они не знали, либо это правда дом, либо он там держит Пенни."
+
+#: data/levels/world2/scripts_floral_blossom.txt:13
+msgid ""
+"They offered to show Tux the way. It was the least they could do to show "
+"their gratitute."
+msgstr "Они предложили показать Таксу дорогу. Это было самое меньшее, что они могли сделать, чтобы выразить свою благодарность."
+
+#: data/levels/world2/scripts_floral_blossom.txt:14
+msgid ""
+"Tux gladly accepted and together with a handful of Granito they soon made "
+"their way to the tropics, in the north-east."
+msgstr "Такс с радостью принял это, и вместе с горсткой Гранито они дошли до тропиков, на северо-востоке."
+
+#: data/levels/world2/scripts_floral_blossom.txt:15
+msgid ""
+"The remaining Granito would stay behind, slowly rebuilding their home, now "
+"that the corruption was finally vanquished..."
+msgstr "Оставшийся Гранито остался позади, медленно перестраивая их дома, и в конце концов, заражение полностью исчезло..."
+
+#: data/levels/world2/scripts_floral_blossom.txt:16
+#: data/levels/world2/scripts_floral_blossom.txt:17
+#: data/levels/world2/scripts_floral_blossom.txt:18
+msgid "Granito freed!"
+msgstr "Гранито освобождены!"
+
+#: data/levels/world2/scripts_forest_intro.txt:2
+msgid "After quite the long trip, Tux arrived at the new biome."
+msgstr "После довольно долгого путешествия Такс прибыл в новый биом."
+
+#: data/levels/world2/scripts_forest_intro.txt:3
+msgid ""
+"Tux was astonished by the scale of this colorful land which was quite "
+"different from his home."
+msgstr "Такс был потрясен масштабами этой красочной страны, которая сильно отличалась от его родного дома."
+
+#: data/levels/world2/scripts_forest_intro.txt:4
+msgid "But how was he ever going to find Nolok in this vast forest?"
+msgstr "Но как он мог найти Нолока в этом огромном лесу?"
+
+#: data/levels/world2/scripts_forest_intro.txt:5
+msgid ""
+"Tux thought for a moment and decided to find a place high up to get a better"
+" view."
+msgstr "Такс немного призадумался и решил найти высокое место, чтобы обзор был лучше."
+
+#: data/levels/world2/scripts_forest_intro.txt:6
+msgid ""
+"Maybe he could find some kind of landmark to help him locate Nolok, wherever"
+" he may be."
+msgstr "Может быть, он сможет найти какой-нибудь ориентир, который поможет ему найти Нолока, где бы тот ни был."
+
+#: data/levels/world2/scripts_ghosttree_cutscene.txt:2
+msgid ""
+"High on the very top of the dilapidated tower, once again Tux found... "
+"nothing."
+msgstr "На самой вершине обветшалой башни Такс снова обнаружил… ничего."
+
+#: data/levels/world2/scripts_ghosttree_cutscene.txt:3
+msgid ""
+"He could not believe it. He was shocked. Confused. Was this not where he "
+"needed to go?"
+msgstr "Он не мог в это поверить. Шокирован. Сбит с толку. Разве это не то место, куда ему нужно было дойти?"
+
+#: data/levels/world2/scripts_ghosttree_cutscene.txt:4
+msgid "Did Nolok's hints trick him afterall? Did he walk into a trap?"
+msgstr "Неужто подсказки Нолока были лишь обманом? Неужели он угодил в ловушку?"
+
+#: data/levels/world2/scripts_ghosttree_cutscene.txt:5
+msgid ""
+"Tux had not long to think about all this, the tower began shaking violetly. "
+"His assumption prove correct instantly."
+msgstr "Но у Такса не было времени раздумывать - башня вдруг затряслась, заливаясь фиолетовым светом. Его догадка мгновенно подтвердилась."
+
+#: data/levels/world2/scripts_ghosttree_cutscene.txt:6
+msgid ""
+"He made it! He escaped the collapsing tower just in time as the structure "
+"now fully gave in. But the roots were not done yet!"
+msgstr "Он успел! Такс вырвался из рушащейся башни в последний миг, прежде чем конструкция окончательно сложилась. Но корни ещё не отступили!"
+
+#: data/levels/world2/scripts_ghosttree_cutscene.txt:7
+msgid ""
+"This was only the beginning, as he had found the root of the problem... "
+"towering over the small penguin."
+msgstr "Это было лишь началом. Он обнаружил корень проблемы... возвышающийся над маленьким пингвином."
+
+#: data/levels/world2/scripts_ghosttree_cutscene.txt:8
+msgid ""
+"Tux watched in shock as the roots dug through the tower's walls, faster and "
+"faster. He had to get out of there, fast!"
+msgstr "Такс в ужасе наблюдал, как корни всё быстрее и быстрее вгрызались в стены башни. Нужно было убираться отсюда, и немедленно!"
+
+#: data/levels/world2/scripts_ghosttree_cutscene.txt:9
+msgid ""
+"The roots were now everywhere. The tower become more unstable by the second."
+" Slowly, it collapsed in on itself."
+msgstr "Корни были теперь повсюду. Башня становилась всё неустойчивее с каждой секундой. И медленно, неумолимо, она стала рушиться сама в себя."
+
+#: data/levels/world2/scripts_ghosttree_cutscene.txt:10
+msgid ""
+"Tux ran as fast as he could, but the roots would not let him leave as they "
+"blocked off the only path to the main entrance."
+msgstr "Такс бежал изо всех сил, но корни не собирались его выпускать - они перекрыли единственный путь к главному входу."
+
+#: data/levels/world2/scripts_ghosttree_cutscene.txt:11
+msgid ""
+"Across the hallway, on the other side, there was a huge crack in the wall. "
+"Tux saw himself forced to take the leap of faith, if he wished to not be "
+"crushed."
+msgstr "На другой стороне коридора в стене была огромная трещина. Такс понял, что ему придётся рискнуть, если он не хочет быть раздавленным."
+
+#: data/levels/world2/scripts_ghosttreewin_cutscene.txt:2
+msgid "Was it over? Was the nightmare finally over?"
+msgstr "Всё кончилось? Этот кошмар наконец позади?"
+
+#: data/levels/world2/scripts_ghosttreewin_cutscene.txt:3
+msgid ""
+"Tux could not believe his eyes, but it seemed so! The roots began "
+"retreating. The ground looked more vital again."
+msgstr "Такс не верил своим глазам, но, казалось, это правда! Корни начали отступать. Земля вокруг вновь обретала жизнь."
+
+#: data/levels/world2/scripts_ghosttreewin_cutscene.txt:4
+msgid ""
+"Though as much as he was ecstatic about seeing the land restored and "
+"beginning to heal... where to now?"
+msgstr "И хоть он был безмерно счастлив, видя, как земля восстановлена и начинает исцеляться... куда теперь?"
+
+#: data/levels/world2/scripts_ghosttreewin_cutscene.txt:5
+msgid ""
+"The forest, the tower... those were the only leads Tux had. He had no clue "
+"where Nolok could be hiding, if he even was here to begin with. Or rather "
+"anymore."
+msgstr "Лес, башня... других намёков у Такса не было. Он не имел ни малейшего представления, где мог скрываться Нолок, если тот вообще был здесь. Или, вернее, всё ещё здесь."
+
+#: data/levels/world2/scripts_ghosttreewin_cutscene.txt:6
+msgid ""
+"There was no one around Tux could ask for help. All but the remains of "
+"corrupted husks littered the ground as he moved along in thought. No living "
+"creature in sight."
+msgstr "Вокруг Такса не было ни души, у кого можно было бы попросить помощи. Лишь остатки искажённых оболочек устилали землю на его пути, пока он шёл, погружённый в мысли. Ни одного живого создания в поле зрения."
+
+#: data/levels/world2/scripts_ghosttreewin_cutscene.txt:7
+msgid ""
+"Hoping to discover some kind of clue - anything! - Tux's best bet was to "
+"continue exploring this side of the forest, as destroyed as it may be."
+msgstr "В надежде отыскать хоть какую-нибудь зацепку - любую! - Такс решил, что лучше всего продолжать исследовать эту часть леса, какой бы разрушенной она ни была."
+
+#: data/levels/world2/scripts_ghosttreewin_cutscene.txt:8
+msgid ""
+"There must be something, somewhere, able to help him to find Nolok! "
+"Right...?"
+msgstr "Должно же быть что-то, где-то, что поможет ему найти Нолока… Правда?"
+
+#: data/levels/world2/shallow_green.stl:3
+msgid "Shallow Green"
+msgstr "Мелкая зелень"
+
+#: data/levels/world2/shocking.stl:3
+msgid "Shocking"
+msgstr "Молнии"
+
+#: data/levels/world2/square_root_agony.stl:3
+msgid "Square Root of Agony"
+msgstr "Квадратный корень агонии"
+
+#: data/levels/world2/sticks_stones.stl:3
+msgid "Stick And Stones"
+msgstr "Палка и камни"
+
+#: data/levels/world2/striking_wood.stl:3
+msgid "Striking Wood"
+msgstr "Удар по дереву"
+
+#: data/levels/world2/three_sheets_wind.stl:3
+msgid "Three Sheets to the Wind"
+msgstr "Три листа к ветру"
+
+#: data/levels/world2/through_dark.stl:3
+msgid "Through the Dark"
+msgstr "Сквозь тьму"
+
+#: data/levels/world2/tux_builder.stl:3
+msgid "Tux the Builder"
+msgstr "Строитель Такс"
+
+#: data/levels/world2/welcome_forest.stl:3
+msgid "Welcome to the Forest"
+msgstr "Добро пожаловать в лес"
+
+#: data/levels/world2/welcome_forest.stl:135
+msgid ""
+"-Doors\n"
+"!images/objects/door/door-0.png\n"
+"#Tux can go through a door by pressing the UP key.\n"
+"#\n"
+"#Some doors may require a key to enter!"
+msgstr "-Двери\n!images/objects/door/door-0.png\n#Такс может проходить через дверь, нажав на клавишу ВВЕРХ.\n# \n#Для некоторых дверей требуется ключ!"
+
+#: data/levels/world2/welcome_forest.stl:194
+#: data/levels/world2/worldmap.stwm:364 data/levels/world2/worldmap.stwm:374
+msgid "You found a secret area!"
+msgstr "Вы нашли тайник!"
+
+#: data/levels/world2/wooden_roots.stl:3
+msgid "Wooden Roots"
+msgstr "Деревянные корни"
+
+#: data/levels/world2/worldmap.stwm:356
+msgid "To be continued..."
+msgstr "Продолжение следует…"
+
+#: data/levels/world2/worse_salmonella.stl:3
+msgid "Worse Than Salmonella"
+msgstr "Хуже сальмонеллы"

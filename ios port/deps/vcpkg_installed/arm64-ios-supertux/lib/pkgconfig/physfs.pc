@@ -1,0 +1,12 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: PhysicsFS
+Description: PhysicsFS is a library to provide abstract access to various archives.
+URL: https://icculus.org/physfs/
+Version: 3.2.0
+
+Libs: "-L${libdir}" -lphysfs
+Cflags: "-I${includedir}"

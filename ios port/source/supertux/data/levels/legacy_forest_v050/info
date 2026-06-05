@@ -1,0 +1,7 @@
+(supertux-level-subset
+  (title (_ "Legacy Forest 0.5"))
+  (description (_ "The Forest World from SuperTux 0.5.0."))
+  (contrib-type "legacy")
+  (hide-from-contribs #f)
+  (levelset #f)
+)

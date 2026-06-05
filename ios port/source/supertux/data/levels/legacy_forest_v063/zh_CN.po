@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Liu Sizhuang <chinatslsz@hotmail.com>, 2008
+# a73a47e368cc011d8f94528bd9d5d3f1_91fccdf <1b07f49e2a323989c85dd26d526f7bb9_871526>, 2020
+# CodingJellyfish <dumaosen_main01@outlook.com>, 2018,2020
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2021-12-12 20:05+0100\n"
+"PO-Revision-Date: 2021-12-12 21:21+0000\n"
+"Last-Translator: Transifex Bot <>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/arctic-games/supertux/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/levels/legacy_forest_v063/ancient_ruins.stl:3
+msgid "Ancient Ruins"
+msgstr "上古遗迹"
+
+#: data/levels/legacy_forest_v063/ancient_ruins.stl:1463
+#: data/levels/legacy_forest_v063/ancient_ruins.stl:1471
+#: data/levels/legacy_forest_v063/bouncy_coils.stl:380
+#: data/levels/legacy_forest_v063/bouncy_coils.stl:388
+#: data/levels/legacy_forest_v063/bye_bye_forest.stl:1607
+#: data/levels/legacy_forest_v063/crumbling_path.stl:278
+#: data/levels/legacy_forest_v063/crumbling_path.stl:1651
+#: data/levels/legacy_forest_v063/going_underground.stl:246
+#: data/levels/legacy_forest_v063/going_underground.stl:1249
+#: data/levels/legacy_forest_v063/mouldy_grotto.stl:559
+#: data/levels/legacy_forest_v063/penguin_grow_trees.stl:459
+#: data/levels/legacy_forest_v063/penguin_grow_trees.stl:467
+#: data/levels/legacy_forest_v063/through_dark.stl:361
+#: data/levels/legacy_forest_v063/tux_builder.stl:384
+#: data/levels/legacy_forest_v063/wooden_roots.stl:279
+#: data/levels/legacy_forest_v063/worldmap.stwm:186
+msgid "You found a secret area!"
+msgstr "你找到了一个秘密区域!"
+
+#: data/levels/legacy_forest_v063/beside_bushes.stl:3
+msgid "Beside the Bushes"
+msgstr "穿越荆棘"
+
+#: data/levels/legacy_forest_v063/bouncy_coils.stl:3
+msgid "Bouncy Coils"
+msgstr "弹簧"
+
+#: data/levels/legacy_forest_v063/bye_bye_forest.stl:3
+msgid "Bye Bye Forest"
+msgstr "再见丛林"
+
+#: data/levels/legacy_forest_v063/crumbling_path.stl:3
+msgid "Crumbling Path"
+msgstr "粉碎的道路"
+
+#: data/levels/legacy_forest_v063/darkness_awaits.stl:3
+msgid "Darkness Awaits"
+msgstr "有约不来过夜半"
+
+#: data/levels/legacy_forest_v063/find_big_fish.stl:3
+msgid "Find the Bigger Fish!"
+msgstr "寻找大鱼!"
+
+#: data/levels/legacy_forest_v063/find_big_fish.stl:1058
+msgid "-A big fish... for you."
+msgstr "-这条大鱼……属于你！"
+
+#: data/levels/legacy_forest_v063/forest_intro.stl:3
+msgid "A New Location"
+msgstr "新大陆"
+
+#: data/levels/legacy_forest_v063/ghost_cutscene.stl:3
+msgid "What is Happening?"
+msgstr "怪事如云"
+
+#: data/levels/legacy_forest_v063/ghostly_misery.stl:3
+msgid "Ghostly Misery"
+msgstr "鬼魂之痛"
+
+#: data/levels/legacy_forest_v063/ghosttrees_challenges.stl:3
+msgid "Ghosttree's Challenges"
+msgstr "大战鬼树"
+
+#: data/levels/legacy_forest_v063/ghouls_lair.stl:3
+msgid "Ghouls' Lair"
+msgstr "鬼巢"
+
+#: data/levels/legacy_forest_v063/ghouls_lair.stl:849
+msgid ""
+"#Lanterns are used to make magic blocks solid, so you're able to walk atop "
+"of them."
+msgstr ""
+
+#: data/levels/legacy_forest_v063/going_underground.stl:3
+msgid "Going Underground"
+msgstr "到地下去"
+
+#: data/levels/legacy_forest_v063/i_spy_with_my_little_eye.stl:3
+msgid "I Spy With My Little Eye"
+msgstr "红眼机关"
+
+#: data/levels/legacy_forest_v063/i_spy_with_my_little_eye.stl:221
+msgid ""
+"-Ispy\n"
+"#Ispys will activate things like platforms whenever Tux is in their sight."
+msgstr ""
+
+#: data/levels/legacy_forest_v063/i_spy_with_my_little_eye.stl:595
+msgid "Hint: Use snails to break blocks!"
+msgstr ""
+
+#: data/levels/legacy_forest_v063/leaf_wind.stl:3
+msgid "Like a leaf in the Wind"
+msgstr "孤蓬万里征"
+
+#: data/levels/legacy_forest_v063/lost_village.stl:3
+msgid "Lost Village"
+msgstr "遗忘村庄"
+
+#: data/levels/legacy_forest_v063/lost_village.stl:187
+msgid "#Don't forget to hit the switch!"
+msgstr "#不要忘了打开开关！"
+
+#: data/levels/legacy_forest_v063/mouldy_grotto.stl:3
+msgid "A Mouldy Grotto"
+msgstr "发霉的洞穴"
+
+#: data/levels/legacy_forest_v063/owls_again.stl:3
+msgid "The Owls again..."
+msgstr "又来！猫头鹰风波"
+
+#: data/levels/legacy_forest_v063/owls_skydive_commando.stl:3
+msgid "Owls' Skydive Commando"
+msgstr "猫头鹰的空降部队"
+
+#: data/levels/legacy_forest_v063/penguin_grow_trees.stl:3
+msgid "Penguins don't grow on Trees"
+msgstr "企鹅不长在树上"
+
+#: data/levels/legacy_forest_v063/shocking.stl:3
+msgid "Shocking"
+msgstr "震动"
+
+#: data/levels/legacy_forest_v063/the_forest_is_rotting.stl:3
+msgid "The Forest Is Rotting"
+msgstr "森林在腐烂"
+
+#: data/levels/legacy_forest_v063/through_dark.stl:3
+msgid "Through the Dark"
+msgstr "暗夜之行"
+
+#: data/levels/legacy_forest_v063/through_dark.stl:96
+msgid ""
+"-Earth Flower\n"
+"!images/powerups/earthflower/earth_flower-1.png\n"
+"#The earth flower gives Tux the ability to turn into stone by pressing the ACTION Key and the DOWN Key at the same time.\n"
+"#This does not work while jumping or falling!"
+msgstr "- 土地花\n!images/powerups/earthflower/earth_flower-1.png\n#摘下这土地花后，同时按下动作键和向下方向键即可让 Tux 潜入土中。\n#在跳跃或摔落时无用！"
+
+#: data/levels/legacy_forest_v063/tower_cutscene.stl:3
+msgid "Tower Cutscene"
+msgstr "高塔过场动画"
+
+#: data/levels/legacy_forest_v063/tower_of_ghosts.stl:3
+msgid "Tower Of Ghosts"
+msgstr "鬼魂宝塔"
+
+#: data/levels/legacy_forest_v063/tux_builder.stl:3
+msgid "Tux the Builder"
+msgstr "建筑师 Tux"
+
+#: data/levels/legacy_forest_v063/tux_builder.stl:77
+msgid ""
+"-Portable Objects:\n"
+"!images/objects/rock/rock.png\n"
+"#Tux can pick up certain objects and carry them around.\n"
+"#Press the ACTION key to grab an object and hold it pressed as long as you want to carry the object. Release the ACTION key to drop the object."
+msgstr ""
+
+#: data/levels/legacy_forest_v063/tux_own_horror_show.stl:3
+msgid "Tux' Own Horror Show"
+msgstr "疑神疑鬼"
+
+#: data/levels/legacy_forest_v063/tux_own_horror_show.stl:790
+msgid ""
+"#Will o' Wisps are small, annoying ghosts, which transport you to different,"
+" often dangerous places."
+msgstr ""
+
+#: data/levels/legacy_forest_v063/walking_leaves.stl:3
+msgid "Walking Leaves"
+msgstr "行走的树叶"
+
+#: data/levels/legacy_forest_v063/welcome_forest.stl:3
+msgid "Welcome to the Forest"
+msgstr "欢迎来到森林"
+
+#: data/levels/legacy_forest_v063/welcome_forest.stl:50
+msgid ""
+"-Doors\n"
+"!images/objects/door/door-0.png\n"
+"#Tux can go through a door by pressing the UP key."
+msgstr ""
+
+#: data/levels/legacy_forest_v063/wooden_roots.stl:3
+msgid "Wooden Roots"
+msgstr "树根"
+
+#: data/levels/legacy_forest_v063/worldmap.stwm:3
+msgid "Rooted Forest"
+msgstr ""
+
+#: data/levels/legacy_forest_v063/worldmap.stwm:200
+msgid "To be continued..."
+msgstr "续"

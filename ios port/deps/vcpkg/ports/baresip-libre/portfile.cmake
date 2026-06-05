@@ -1,0 +1,33 @@
+if(VCPKG_TARGET_IS_WINDOWS)
+    vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
+endif()
+
+vcpkg_from_github(
+    OUT_SOURCE_PATH SOURCE_PATH
+    REPO baresip/re
+    REF "v${VERSION}"
+    SHA512 12b990f03a5c1e9d6f91cb4a9b5aed506288f52075d7ed83fa44c55823369b658c33a7024281472c63e98bdcaa4c4ca2c76e136f59cf50c1bc953b1219664b74
+    HEAD_REF main
+    PATCHES
+)
+
+string(COMPARE EQUAL "${VCPKG_LIBRARY_LINKAGE}" "dynamic" LIBRE_BUILD_SHARED)
+string(COMPARE EQUAL "${VCPKG_LIBRARY_LINKAGE}" "static" LIBRE_BUILD_STATIC)
+
+vcpkg_cmake_configure(
+    SOURCE_PATH "${SOURCE_PATH}"
+    OPTIONS
+        -DLIBRE_BUILD_SHARED=${LIBRE_BUILD_SHARED}
+        -DLIBRE_BUILD_STATIC=${LIBRE_BUILD_STATIC}
+        -DCMAKE_DISABLE_FIND_PACKAGE_Backtrace=ON
+        -DCMAKE_REQUIRE_FIND_PACKAGE_OpenSSL=ON
+        -DCMAKE_REQUIRE_FIND_PACKAGE_ZLIB=ON
+)
+vcpkg_cmake_install()
+vcpkg_fixup_pkgconfig()
+vcpkg_cmake_config_fixup(PACKAGE_NAME libre CONFIG_PATH lib/cmake/libre)
+
+file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
+
+file(COPY "${CMAKE_CURRENT_LIST_DIR}/usage" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}")
+vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")

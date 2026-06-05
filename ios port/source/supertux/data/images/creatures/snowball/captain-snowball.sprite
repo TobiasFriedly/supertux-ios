@@ -1,0 +1,71 @@
+(supertux-sprite
+  (action
+    (name "left")
+    (hitbox 8 13 32 32)
+    (fps 14)
+    (images "captain_left-0.png"
+            "captain_left-1.png"
+            "captain_left-2.png"
+            "captain_left-3.png"
+            "captain_left-4.png"
+            "captain_left-5.png"
+            "captain_left-6.png"
+            "captain_left-7.png")
+  )
+  (action
+    (name "right")
+    (hitbox 8 13 32 32)
+    (fps 14)
+    (images "captain_right-0.png"
+            "captain_right-1.png"
+            "captain_right-2.png"
+            "captain_right-3.png"
+            "captain_right-4.png"
+            "captain_right-5.png"
+            "captain_right-6.png"
+            "captain_right-7.png")
+  )
+  (action
+    (name "jump-left")
+    (hitbox 8 13 32 32)
+    (fps 20)
+	(loops 1)
+    (images "captain_jump-0.png"
+            "captain_jump-1.png"
+            "captain_jump-2.png"
+            "captain_jump-3.png")
+  )
+  (action
+    (name "jump-right")
+    (hitbox 8 13 32 32)
+    (fps 20)
+	(loops 1)
+    (images "captain_jump-4.png"
+            "captain_jump-5.png"
+            "captain_jump-6.png"
+            "captain_jump-7.png")
+  )
+  (action
+    (name "squished-left")
+    (hitbox 8 13 32 32)
+    (images "captain_left-squished.png")
+  )
+  (action
+    (name "squished-right")
+    (hitbox 8 13 32 32)
+    (images "captain_right-squished.png")
+  )
+ (action
+    (name "melting")
+    (hitbox 0 0 32 32)
+    (images "../../objects/water_drop/water-drop.png"))
+  (action
+    (name "ground-melting")
+    (hitbox 14 -10 32 32)
+    (images "../../objects/water_drop/water-splash-0.png"
+            "../../objects/water_drop/water-splash-1.png"
+            "../../objects/water_drop/water-splash-2.png"
+            "../../objects/water_drop/water-splash-3.png"
+            "../../objects/water_drop/water-splash-4.png"
+            "../../objects/water_drop/water-splash-5.png"))
+)

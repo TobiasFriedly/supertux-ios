@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "supertux-ios-port",
+  "version-string": "0.7.0",
+  "dependencies": [
+    {
+      "name": "curl",
+      "default-features": false,
+      "features": [
+        "mbedtls"
+      ]
+    },
+    "fmt",
+    "freetype",
+    "glm",
+    "libogg",
+    "libpng",
+    "libvorbis",
+    "openal-soft",
+    "physfs",
+    "sdl2",
+    "sdl2-image",
+    "sdl2-ttf",
+    "zlib"
+  ]
+}

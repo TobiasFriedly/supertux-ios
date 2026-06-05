@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# André Pinheiro <andrepinheiro2004@gmail.com>, 2021
+# Dani <danielaafferraz@gmail.com>, 2013
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021
+# Rui <xymarior@yandex.com>, 2016,2018
+# Tiago Correia <tiaguito05@gmail.com>, 2019
+# Rui <xymarior@yandex.com>, 2016
+# zecas <jjorge@free.fr>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2021-12-12 20:05+0100\n"
+"PO-Revision-Date: 2021-12-14 13:14+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/arctic-games/supertux/language/pt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/legacy_forest_v063/ancient_ruins.stl:3
+msgid "Ancient Ruins"
+msgstr "Velhas Ruínas"
+
+#: data/levels/legacy_forest_v063/ancient_ruins.stl:1463
+#: data/levels/legacy_forest_v063/ancient_ruins.stl:1471
+#: data/levels/legacy_forest_v063/bouncy_coils.stl:380
+#: data/levels/legacy_forest_v063/bouncy_coils.stl:388
+#: data/levels/legacy_forest_v063/bye_bye_forest.stl:1607
+#: data/levels/legacy_forest_v063/crumbling_path.stl:278
+#: data/levels/legacy_forest_v063/crumbling_path.stl:1651
+#: data/levels/legacy_forest_v063/going_underground.stl:246
+#: data/levels/legacy_forest_v063/going_underground.stl:1249
+#: data/levels/legacy_forest_v063/mouldy_grotto.stl:559
+#: data/levels/legacy_forest_v063/penguin_grow_trees.stl:459
+#: data/levels/legacy_forest_v063/penguin_grow_trees.stl:467
+#: data/levels/legacy_forest_v063/through_dark.stl:361
+#: data/levels/legacy_forest_v063/tux_builder.stl:384
+#: data/levels/legacy_forest_v063/wooden_roots.stl:279
+#: data/levels/legacy_forest_v063/worldmap.stwm:186
+msgid "You found a secret area!"
+msgstr "Descobriu uma área secreta!"
+
+#: data/levels/legacy_forest_v063/beside_bushes.stl:3
+msgid "Beside the Bushes"
+msgstr "Junto aos Arbustos"
+
+#: data/levels/legacy_forest_v063/bouncy_coils.stl:3
+msgid "Bouncy Coils"
+msgstr "Molas Saltitantes"
+
+#: data/levels/legacy_forest_v063/bye_bye_forest.stl:3
+msgid "Bye Bye Forest"
+msgstr "Floresta Bye Bye"
+
+#: data/levels/legacy_forest_v063/crumbling_path.stl:3
+msgid "Crumbling Path"
+msgstr "Caminho Destruído"
+
+#: data/levels/legacy_forest_v063/darkness_awaits.stl:3
+msgid "Darkness Awaits"
+msgstr "A Escuridão Espera"
+
+#: data/levels/legacy_forest_v063/find_big_fish.stl:3
+msgid "Find the Bigger Fish!"
+msgstr "Encontra o Grande Peixe!"
+
+#: data/levels/legacy_forest_v063/find_big_fish.stl:1058
+msgid "-A big fish... for you."
+msgstr "-Um grande peixe... para ti."
+
+#: data/levels/legacy_forest_v063/forest_intro.stl:3
+msgid "A New Location"
+msgstr "Um Novo Sítio"
+
+#: data/levels/legacy_forest_v063/ghost_cutscene.stl:3
+msgid "What is Happening?"
+msgstr "O Que Acontece?"
+
+#: data/levels/legacy_forest_v063/ghostly_misery.stl:3
+msgid "Ghostly Misery"
+msgstr "Miséria Fantasmagórica"
+
+#: data/levels/legacy_forest_v063/ghosttrees_challenges.stl:3
+msgid "Ghosttree's Challenges"
+msgstr "Os Desafios de Ghosttree"
+
+#: data/levels/legacy_forest_v063/ghouls_lair.stl:3
+msgid "Ghouls' Lair"
+msgstr "Covil de Ghouls"
+
+#: data/levels/legacy_forest_v063/ghouls_lair.stl:849
+msgid ""
+"#Lanterns are used to make magic blocks solid, so you're able to walk atop "
+"of them."
+msgstr "#Lanternas são usadas para fazer blocos mágicos sólidos, para que consigas andar sobre eles."
+
+#: data/levels/legacy_forest_v063/going_underground.stl:3
+msgid "Going Underground"
+msgstr "Pelo Subterrâneo"
+
+#: data/levels/legacy_forest_v063/i_spy_with_my_little_eye.stl:3
+msgid "I Spy With My Little Eye"
+msgstr "Eu Espio Com o Meu Pequeno Olho"
+
+#: data/levels/legacy_forest_v063/i_spy_with_my_little_eye.stl:221
+msgid ""
+"-Ispy\n"
+"#Ispys will activate things like platforms whenever Tux is in their sight."
+msgstr "-Ispy\n#Ispys vão ativar coisas, como por exemplo, plataformas, sempre que Tux estiver no seu campo de visão."
+
+#: data/levels/legacy_forest_v063/i_spy_with_my_little_eye.stl:595
+msgid "Hint: Use snails to break blocks!"
+msgstr "Dica: Usa caracóis para partir blocos!"
+
+#: data/levels/legacy_forest_v063/leaf_wind.stl:3
+msgid "Like a leaf in the Wind"
+msgstr "Como uma folha no Vento"
+
+#: data/levels/legacy_forest_v063/lost_village.stl:3
+msgid "Lost Village"
+msgstr "Vila Perdida"
+
+#: data/levels/legacy_forest_v063/lost_village.stl:187
+msgid "#Don't forget to hit the switch!"
+msgstr "#Não te esqueças de carregar no interruptor!"
+
+#: data/levels/legacy_forest_v063/mouldy_grotto.stl:3
+msgid "A Mouldy Grotto"
+msgstr "Uma Caverna Fedorenta"
+
+#: data/levels/legacy_forest_v063/owls_again.stl:3
+msgid "The Owls again..."
+msgstr "As Corujas novamente..."
+
+#: data/levels/legacy_forest_v063/owls_skydive_commando.stl:3
+msgid "Owls' Skydive Commando"
+msgstr "O Commando de Skydive das Corujas"
+
+#: data/levels/legacy_forest_v063/penguin_grow_trees.stl:3
+msgid "Penguins don't grow on Trees"
+msgstr "Os pinguins não crescem nas Árvores"
+
+#: data/levels/legacy_forest_v063/shocking.stl:3
+msgid "Shocking"
+msgstr "Chocante"
+
+#: data/levels/legacy_forest_v063/the_forest_is_rotting.stl:3
+msgid "The Forest Is Rotting"
+msgstr "A Floresta Está a Apodrecer"
+
+#: data/levels/legacy_forest_v063/through_dark.stl:3
+msgid "Through the Dark"
+msgstr "Através da Escuridão"
+
+#: data/levels/legacy_forest_v063/through_dark.stl:96
+msgid ""
+"-Earth Flower\n"
+"!images/powerups/earthflower/earth_flower-1.png\n"
+"#The earth flower gives Tux the ability to turn into stone by pressing the ACTION Key and the DOWN Key at the same time.\n"
+"#This does not work while jumping or falling!"
+msgstr "-Flor-de-Terra\n!images/powerups/earthflower/earth_flower-1.png\n#A  flor-de-Terra dá ao Tux o poder de virar em pedra ao pressionar a tecla de AÇÃO e de SETA PARA BAIXO ao mesmo tempo.\n#Isto não funciona quando pulas ou saltas!"
+
+#: data/levels/legacy_forest_v063/tower_cutscene.stl:3
+msgid "Tower Cutscene"
+msgstr "Cutscene da Torre"
+
+#: data/levels/legacy_forest_v063/tower_of_ghosts.stl:3
+msgid "Tower Of Ghosts"
+msgstr "Torre de Fantasmas"
+
+#: data/levels/legacy_forest_v063/tux_builder.stl:3
+msgid "Tux the Builder"
+msgstr "Tux o Construtor"
+
+#: data/levels/legacy_forest_v063/tux_builder.stl:77
+msgid ""
+"-Portable Objects:\n"
+"!images/objects/rock/rock.png\n"
+"#Tux can pick up certain objects and carry them around.\n"
+"#Press the ACTION key to grab an object and hold it pressed as long as you want to carry the object. Release the ACTION key to drop the object."
+msgstr "-Objetos Portáteis:\n!images/objects/rock/rock.png\n#O Tux pode segurar em certos objectos e transportá-los\n#Pressione a tecla de AÇÃO para agarrar um objeto e mantê-lo premido durante o tempo que desejar transportar o objeto. Solte a tecla de AÇÃO para largar o objeto."
+
+#: data/levels/legacy_forest_v063/tux_own_horror_show.stl:3
+msgid "Tux' Own Horror Show"
+msgstr "O Espétaculo de Terror do Tux"
+
+#: data/levels/legacy_forest_v063/tux_own_horror_show.stl:790
+msgid ""
+"#Will o' Wisps are small, annoying ghosts, which transport you to different,"
+" often dangerous places."
+msgstr "#Will o'Wisps são fantasmas pequenos e irritantes que te transportam para sítios diferentes, normalmente sítios perigosos."
+
+#: data/levels/legacy_forest_v063/walking_leaves.stl:3
+msgid "Walking Leaves"
+msgstr "Folhas Andantes"
+
+#: data/levels/legacy_forest_v063/welcome_forest.stl:3
+msgid "Welcome to the Forest"
+msgstr "Bem-vindo à Floresta"
+
+#: data/levels/legacy_forest_v063/welcome_forest.stl:50
+msgid ""
+"-Doors\n"
+"!images/objects/door/door-0.png\n"
+"#Tux can go through a door by pressing the UP key."
+msgstr "-Portas\n!images/objects/door/door-0.png\n#Tux pode passar por uma porta premindo a tecla SETA PARA CIMA."
+
+#: data/levels/legacy_forest_v063/wooden_roots.stl:3
+msgid "Wooden Roots"
+msgstr "Raízes de Madeira"
+
+#: data/levels/legacy_forest_v063/worldmap.stwm:3
+msgid "Rooted Forest"
+msgstr "Floresta Enraizada"
+
+#: data/levels/legacy_forest_v063/worldmap.stwm:200
+msgid "To be continued..."
+msgstr "Continua..."

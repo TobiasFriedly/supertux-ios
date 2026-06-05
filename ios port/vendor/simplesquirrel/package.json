@@ -1,0 +1,17 @@
+{
+  "name": "simplesquirrel",
+  "version": "1.0.0",
+  "description": "Simple Squirrel Binding library for C++11",
+  "repository": {
+    "url": "git@git@github.com:matusnovak/simplesquirrel.git",
+    "type": "git"
+  },
+  "scripts": {
+    "publish": "node gh-pages.js"
+  },
+  "author": "matusnovak",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

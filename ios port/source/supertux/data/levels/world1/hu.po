@@ -1,0 +1,354 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the SuperTux package.
+# 
+# Translators:
+# Balázs Úr, 2018
+# D. J. S. <djsossz@freemail.hu>, 2012
+# Norbert Molnár <buzitetu@indamail.hu>, 2013
+# Balázs Podolcsák <ginjeet@gmail.com>, 2015
+# Guih48, 2025
+# gyeben <gyonkibendeguz@gmail.com>, 2013
+# gyeben <gyonkibendeguz@gmail.com>, 2014
+# Haba Tamás <habatamas0@gmail.com>, 2016
+#  Kővágó Zoltán <DirtY.iCE.hu@gmail.com>, 2006
+# Kővágó, Zoltán <DirtY.iCE.hu@gmail.com>, 2013
+# Kristóf Kófiás <kristof.kofias@gmail.com>, 2014,2020
+# Tibor Buzási, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: SuperTux\n"
+"Report-Msgid-Bugs-To: https://github.com/SuperTux/supertux/issues\n"
+"POT-Creation-Date: 2025-10-22 21:59+0000\n"
+"PO-Revision-Date: 2013-08-10 22:58+0000\n"
+"Last-Translator: Guih48, 2025\n"
+"Language-Team: Hungarian (http://app.transifex.com/arctic-games/supertux/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/levels/world1/23rd_airborne.stl:3
+msgid "23rd Airborne"
+msgstr "23. Repülős század"
+
+#: data/levels/world1/above_arctic_skies.stl:3
+msgid "Above the Antarctic Skies"
+msgstr "A Sarki Ég fölött"
+
+#: data/levels/world1/above_arctic_skies.stl:318
+msgid ""
+"-Air Flower\r\n"
+"!images/powerups/airflower/air_flower-0.png\r\n"
+"#The Air Flower lets Tux move much quicker and jump higher. It grants the ability to glide in the air for a few seconds by holding the JUMP Key after a jump."
+msgstr ""
+
+#: data/levels/world1/antarctic_outpost.stl:3
+msgid "Antarctic Outpost"
+msgstr "Sarki előörs"
+
+#: data/levels/world1/between_glaciers.stl:3
+msgid "Between Two Glaciers"
+msgstr "Két Gleccser Közt"
+
+#: data/levels/world1/bouncy_mountainside.stl:3
+msgid "Bouncy, Bouncy Mountainside"
+msgstr "Pattogós, pattogós hegyoldal"
+
+#: data/levels/world1/castle_of_nolok.stl:3
+msgid "The Castle of Nolok"
+msgstr "Nolok Vára"
+
+#: data/levels/world1/crystal_mine.stl:3
+msgid "The Crystal Mine"
+msgstr "A Kristály Bánya"
+
+#: data/levels/world1/deep_dive_chill.stl:3
+msgid "Deep Dive 'n' Chill"
+msgstr ""
+
+#: data/levels/world1/end_of_tunnel.stl:3
+msgid "End of the Tunnel"
+msgstr "Az Alagút Vége"
+
+#: data/levels/world1/entrance_cave.stl:3
+msgid "Entrance to the Cave"
+msgstr "Belépés a Barlangba"
+
+#: data/levels/world1/fork_in_the_road.stl:3
+msgid "A Fork in the Road?"
+msgstr "Egy elágazás az úton?"
+
+#: data/levels/world1/fork_in_the_road.stl:750
+msgid ""
+"-Secret Exit\n"
+"#Levels can sometimes house a secret exit that will reveal a hidden, alternate path! So keep an eye out for suspicious spots on the worldmap."
+msgstr "-Titkos kijárat\n#A pályák néha tartalmaznak egy titkos, alternatív útvonalat, figyeld a gyanús helyeket a világtérképen!"
+
+#: data/levels/world1/frosted_fields.stl:3
+msgid "The Frosted Fields"
+msgstr "Fagyott Mezők"
+
+#: data/levels/world1/ice_in_the_hole.stl:3
+msgid "Ice in the Hole"
+msgstr "Jég a Föld Mélyén"
+
+#: data/levels/world1/into_stars.stl:3
+msgid "Into the Stars"
+msgstr "A Csillagokba"
+
+#: data/levels/world1/intro.stl:3
+msgid "Picnic With Penny"
+msgstr "Piknik Pennyvel"
+
+#: data/levels/world1/journey_begins.stl:3
+msgid "The Journey Begins"
+msgstr "Az Utazás Elkezdődik"
+
+#: data/levels/world1/living_inside_fridge.stl:3
+msgid "Living In A Fridge"
+msgstr "Élet a hűtőben"
+
+#: data/levels/world1/more_snowballs.stl:3
+msgid "Oh No! More Snowballs!"
+msgstr "Ó, Ne! Még Több Hógolyó!"
+
+#: data/levels/world1/more_snowballs.stl:290
+msgid ""
+"-Carrying Objects\r\n"
+"#Tux can pick up objects by holding the ACTION key. Release the ACTION key while standing still to drop the object.\r\n"
+"#If you let go of the ACTION key while Tux is moving, he will throw it!"
+msgstr "-Tárgyak cipelése\n#Tux az AKCIÓ gomb nyomva tartásával képes megragadni különböző tárgyakat. Az AKCIÓ gomb fölengedésével elengedi azokat.\n#Amennyiben Tux mozog, miközben az AKCIÓ gombot felengeded, el fogja dobni a nála lévő tárgyat a megfelelő irányba."
+
+#: data/levels/world1/more_snowballs.stl:299
+msgid ""
+"-Up-Throwing\r\n"
+"#Tux can throw most objects upwards, by holding the UP key whilst releasing the ACTION key.\r\n"
+"#When running, Tux throws the object in an arch!"
+msgstr "-Tárgyak hajítása fölfelé\n#Tux a legtöbb tárgyat fölfelé is el tudja dobni, amennyiben a FÖL gombot nyomva tartod az AKCIÓ gomb fölengedése alatt.\n#Ha mindez futás közben történik, Tux a tárgyat ívesen fogja dobni."
+
+#: data/levels/world1/night_chill.stl:3
+msgid "Night Chill"
+msgstr "Fagyos Éj"
+
+#: data/levels/world1/or_just_me.stl:3
+msgid "...Or Is It Just Me?"
+msgstr "…Vagy Tévednék?"
+
+#: data/levels/world1/path_in_clouds.stl:3
+msgid "A Path in the Clouds"
+msgstr "Út a Felhők Között"
+
+#: data/levels/world1/scripts_castle_cutscene.txt:2
+msgid "Tux had reached the end of the castle."
+msgstr "Tux elérte a kastély végét."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:3
+msgid "But to his surprise all he could find was a letter."
+msgstr "Meglepetésére, csak egy levelet talált."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:4
+msgid ""
+"A letter from Penny telling Tux that Nolok has taken her to a far forest."
+msgstr "Egy levél Pennytől, amiben leírja Tuxnak, hogy Nolok egy távoli erdőbe vitte őt."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:5
+msgid ""
+"Unsure about what Nolok was doing to her, Tux became worried about his "
+"beloved Penny."
+msgstr "Tux aggódni kezdett szeretett Pennyje miatt, mivel elképzelni sem tudta, hogy Nolok mit csinál vele."
+
+#: data/levels/world1/scripts_castle_cutscene.txt:6
+msgid "Until suddenly..."
+msgstr "Amíg egyszer csak..."
+
+#: data/levels/world1/scripts_crystal_mine.txt:2
+msgid ""
+"After a long swim across the antarctic waters, Tux arrived at the Glacier "
+"Isles the Yeti told him about."
+msgstr "A délsarki vizeken való hosszú hajózás után Tux megérkezett a Gleccser-szigetekre amikről a Yeti beszélt neki."
+
+#: data/levels/world1/scripts_crystal_mine.txt:3
+msgid ""
+"A massive shaft layed before him leading down into the aforementioned "
+"Crystal Mine."
+msgstr "Előtte egy hatalmas akna tátongott, mely a már említett Kristálybányába vezetett."
+
+#: data/levels/world1/scripts_crystal_mine.txt:4
+msgid ""
+"Still carrying a spark of doubt that this was not a trap, Tux slowly "
+"descended into the depths once more..."
+msgstr "Még mindig kételkedve abban, hogy nem csapdába csalják, Tux lassan leereszkedett a mélybe..."
+
+#: data/levels/world1/scripts_crystal_mine.txt:5
+msgid ""
+"At last, Tux made it through the crystal mine and found himself on the "
+"opposite end of the Glacier Isle."
+msgstr "Végül Tux sikeresen átjutva a Kristálybányán, a Gleccser-sziget túloldalán találta magát."
+
+#: data/levels/world1/scripts_crystal_mine.txt:6
+msgid ""
+"As he was about the exit the mine, internally Tux was hoping that all the "
+"yeti said was true."
+msgstr "A bányából kilépve Tux remélte, hogy amit a Yeti mondott igaz."
+
+#: data/levels/world1/scripts_crystal_mine.txt:7
+msgid ""
+"To his relief, Tux did find a boat still docked. With it he could sail up "
+"north, to the aforementioned forest."
+msgstr "Megkönnyebbülésére Tux talált egy csónakot ami még ki volt kötve. Ezzel megkezdhette útját északra, a már említett erdőbe."
+
+#: data/levels/world1/scripts_crystal_mine.txt:8
+msgid "Seems like the yeti did not lie to him after all."
+msgstr "Úgy látszik a Yeti mégis igazat mondott."
+
+#: data/levels/world1/scripts_crystal_mine.txt:9
+msgid ""
+"The more he thought about it, he probably wasn't even meant to know about "
+"all this in the first place..."
+msgstr "Minél többet gondolkodott rajta, annál inkább úgy érezte, hogy erről eleve nem szabadott volna tudnia..."
+
+#: data/levels/world1/scripts_intro.txt:2
+msgid "Somewhere at the shores of Antarctica..."
+msgstr "Valahol az Antarktisz partjainál..."
+
+#: data/levels/world1/scripts_intro.txt:3
+msgid "Tux the penguin was going to meet his friend, Penny, for a picnic."
+msgstr "Tux, a pingvin piknikezni készülődött, barátjával Pennyvel."
+
+#: data/levels/world1/scripts_intro.txt:4
+msgid "Tux woke up, dizzy, to find that Penny was missing!"
+msgstr "Tux szédelegve felébredt, és meglátta, hogy Penny eltűnt!"
+
+#: data/levels/world1/scripts_intro.txt:5
+msgid "Tux was starting to become worried. He then saw a letter, and it read:"
+msgstr "Tux egyre jobban aggódott. Ekkor meglátott egy levelet, amiben ez állt:"
+
+#: data/levels/world1/scripts_intro.txt:6
+msgid ""
+"\"Tux, I have kidnapped your beloved Penny and have taken her to my "
+"fortress.\""
+msgstr "\"Tux, elraboltam a szeretett Pennydet, és a erődömbe vittem.\""
+
+#: data/levels/world1/scripts_intro.txt:7
+msgid "\"The path to my fortress is littered with my minions.\""
+msgstr "\"Az erődőmhöz vezető út tele van a szolgáimmal.\""
+
+#: data/levels/world1/scripts_intro.txt:8
+msgid "\"You don't have a chance of saving her! Signed, Nolok.\""
+msgstr "\"Esélyed sincs megmenteni őt! Aláírás: Nolok.\""
+
+#: data/levels/world1/scripts_intro.txt:9
+msgid ""
+"Realizing the trouble Penny could be in, Tux became determined to save her."
+msgstr "Mikor Tux rájött milyen bajban van Penny, tudta, hogy meg kell mentenie őt."
+
+#: data/levels/world1/scripts_intro.txt:10
+msgid ""
+"Then, Tux saw Nolok's castle in the distance and set off to rescue Penny!"
+msgstr "Ezután Tux meglátta Nolok kastélyát a távolban, és elindult megmenteni Pennyt!"
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:2
+msgid "Exhausted from his long walk, Tux decided to take a little break."
+msgstr "A hosszú úttol kimerülve, Tux úgy döntött, hogy tart egy kis pihenőt."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:3
+msgid "But then, all of a sudden he heard a loud roar from a distance."
+msgstr "Ekkor, egyszer csak egy hangos ordítást hallott a távolból."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:4
+msgid "A yeti seems to have observed him from afar."
+msgstr "Úgy tűnik, egy jeti a távolból figyelte őt."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:5
+msgid ""
+"Concerned by the yeti's sudden retreat, Tux decided to continue his journey,"
+" ..."
+msgstr "Meglepődve a jeti hirtelen visszavonulásától, Tux úgy döntött, hogy folytatja az utazást, ..."
+
+#: data/levels/world1/scripts_yeti_cutscene.txt:6
+msgid "...while secretly hoping not to run into the yeti again, by any means."
+msgstr "... titokban reménykedve abban, hogy hátha újra találkozik a jetivel."
+
+#: data/levels/world1/shattered_bridge.stl:3
+msgid "Shattered Bridge"
+msgstr "Összetört híd"
+
+#: data/levels/world1/slippery_slide.stl:3
+msgid "Slippery Slide"
+msgstr "Csúszós csúszda"
+
+#: data/levels/world1/somewhat_smaller_bath.stl:3
+msgid "The Somewhat Smaller Bath"
+msgstr "A Valamivel Kisebb Fürdő"
+
+#: data/levels/world1/somewhat_smaller_bath.stl:420
+msgid ""
+"-Swimming\n"
+"!images/creatures/tux/big/swim-1.png\n"
+"#When submerged in water, use the DIRECTIONAL keys to swim around freely. Hold the JUMP key to swim even faster."
+msgstr "-Úszás\n!images/creatures/tux/big/swim-1.png\n#A vízben az IRÁNYGOMBOK használatával szabadon úszhatsz. Tartsd nyomva az UGRÁS gombot a még gyorsabb úszáshoz!"
+
+#: data/levels/world1/stone_cold.stl:3
+msgid "Stone Cold"
+msgstr "Csontfagyasztó Hideg"
+
+#: data/levels/world1/stone_cold.stl:191
+msgid ""
+"-Carrying Objects\r\n"
+"#Tux can pick up objects by holding the ACTION key. Release the ACTION key to drop the object.\r\n"
+"#If you let go of the ACTION key while Tux is moving, he will throw it!"
+msgstr "-Tárgyak cipelése\n#Tux az AKCIÓ gomb nyomva tartásával képes megragadni különböző tárgyakat. Az AKCIÓ gomb fölengedésével elengedi azokat.\n#Amennyiben Tux mozog, miközben az AKCIÓ gombot felengeded, el fogja dobni a nála lévő tárgyat a megfelelő irányba."
+
+#: data/levels/world1/stone_cold.stl:200
+msgid ""
+"-Up-Throwing\r\n"
+"#Tux can throw most objects upwards by holding the UP key, whilst releasing the ACTION key.\r\n"
+"#When running, Tux throws the object in an arch!"
+msgstr "-Tárgyak hajítása fölfelé\n#Tux a legtöbb tárgyat fölfelé is el tudja dobni, amennyiben a FÖL gombot nyomva tartod az AKCIÓ gomb fölengedése alatt.\n#Ha mindez futás közben történik, Tux a tárgyat ívesen fogja dobni."
+
+#: data/levels/world1/under_the_ice.stl:3
+msgid "Under the Ice"
+msgstr "A Jég Alatt"
+
+#: data/levels/world1/welcome_antarctica.stl:3
+msgid "Welcome to Antarctica"
+msgstr "Üdv az Antarktiszon"
+
+#: data/levels/world1/welcome_antarctica.stl:118
+msgid ""
+"-Eggs\n"
+"!images/powerups/egg/egg-shade.png\n"
+"#The egg makes Tux grow larger. Tux can then smash wooden blocks with his head."
+msgstr "-Tojások\n!images/powerups/egg/egg-shade.png\n#A tojás segítségével Tux nagyobbra nőhet. Tux szét tudja törni a fa dobozokat a fejével."
+
+#: data/levels/world1/welcome_antarctica.stl:127
+msgid ""
+"-Fire Flower\n"
+"!images/powerups/fireflower/fire_flower-0.png\n"
+"#The fire flower gives Tux the ability to shoot fireballs."
+msgstr "- Tűzvirág\n!images/powerups/fireflower/fire_flower-0.png\n#A tűzvirág felvétele után Tux képes lesz tűzgolyókat lőni."
+
+#: data/levels/world1/welcome_antarctica.stl:136
+msgid ""
+"-Tux Doll\n"
+"!images/powerups/1up/1up.png\n"
+"#The Tux Doll gives Tux 100 coins."
+msgstr "-Tux baba\n!images/powerups/1up/1up.png\n#A Tux baba megszerzésével 100 érmével leszel gazdagabb."
+
+#: data/levels/world1/worldmap.stwm:3
+msgid "Icy Island"
+msgstr "Jeges Sziget"
+
+#: data/levels/world1/worldmap.stwm:210
+msgid "You found a secret area!"
+msgstr "Megtaláltad a titkos helységet!"
+
+#: data/levels/world1/yeti_boss.stl:3
+msgid "No More Mr. Ice Guy"
+msgstr "Nincs Több Jég Úr"
+
+#: data/levels/world1/yeti_cutscene.stl:3
+msgid "A Yeti in the Distance"
+msgstr "Egy Jeti a Távolban"

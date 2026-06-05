@@ -1,0 +1,7 @@
+(supertux-level-subset
+  (title (_ "Legacy Icy Island"))
+  (description (_ "The Icy Island world from SuperTux 0.6.3."))
+  (contrib-type "legacy")
+  (hide-from-contribs #f)
+  (levelset #f)
+)

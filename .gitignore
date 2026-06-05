@@ -1,0 +1,11 @@
+ios port/build/
+ios port/deps/vcpkg/buildtrees/
+ios port/deps/vcpkg/downloads/
+ios port/deps/vcpkg/packages/
+ios port/deps/vcpkg/installed/
+ios port/deps/vcpkg_installed/*/vcpkg/
+
+.DS_Store
+*.xcuserstate
+*.xcuserdata/
+*.dSYM/

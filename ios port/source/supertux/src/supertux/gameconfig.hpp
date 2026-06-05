@@ -1,0 +1,201 @@
+//  SuperTux
+//  Copyright (C) 2006 Matthias Braun <matze@braunis.de>
+//
+//  This program is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  This program is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#pragma once
+
+#include <optional>
+
+#include "control/joystick_config.hpp"
+#include "control/keyboard_config.hpp"
+#include "math/size.hpp"
+#include "math/vector.hpp"
+#include "video/drawing_context.hpp"
+#include "video/video_system.hpp"
+
+class Config final
+{
+public:
+  enum class ScreenShakeMode {
+    OFF, REDUCED, FULL
+  };
+
+public:
+  Config();
+
+  void load();
+  void save();
+
+  void check_values();
+
+  inline bool is_initial() const { return m_initial; }
+
+private:
+  bool m_initial;
+
+public:
+  int profile;
+
+  /** the width/height to be used to display the game in fullscreen */
+  Size fullscreen_size;
+
+  /** refresh rate for use in fullscreen, 0 for auto */
+  int fullscreen_refresh_rate;
+
+  /** the width/height of the window managers window */
+  Size window_size;
+
+  /** Window is resizable */
+  bool window_resizable;
+
+  /** the aspect ratio */
+  Size aspect_size;
+
+#ifdef __EMSCRIPTEN__
+  /** @deprecated Whether to automatically resize the game when the browser is resized */
+  bool fit_window;
+#endif
+
+  float magnification;
+
+  bool use_fullscreen;
+  VideoSystem::Enum video;
+  int vsync;
+  bool frame_prediction;
+  bool show_fps;
+  bool show_player_pos;
+  bool show_controller;
+  bool show_game_timer;
+  float camera_peek_multiplier;
+  bool sound_enabled;
+  bool music_enabled;
+  int sound_volume;
+  int music_volume;
+  int flash_intensity;
+  ScreenShakeMode screen_shake_mode;
+  bool precise_scrolling;
+  bool invert_wheel_x;
+  bool invert_wheel_y;
+  bool max_viewport;
+
+  /** Prefer the wayland session. Depending on the platform, this may not be used. */
+  bool prefer_wayland;
+
+  /** Toggles fancy graphical effects like displacement or blur (primarily for the GL backend) */
+  bool fancy_gfx;
+
+  /** initial random seed.  0 ==> set from time() */
+  int random_seed;
+
+  bool enable_script_debugger;
+
+  /** this variable is set if tux should spawn somewhere which isn't the "main" spawn point*/
+  std::optional<Vector> tux_spawn_pos;
+
+  /** force SuperTux language to this locale, e.g. "de". A file
+      "data/locale/xx.po" must exist for this to work. An empty string
+      means autodetect. */
+  std::string locale;
+
+  KeyboardConfig keyboard_config;
+  JoystickConfig joystick_config;
+  bool ignore_joystick_axis;
+  bool touch_haptic_feedback;
+  bool touch_just_directional;
+  bool touch_floating_joystick;
+
+  bool mobile_controls;
+  float m_mobile_controls_scale;
+  bool touch_controls_visible;
+  bool touch_controls_user_override;
+  bool touch_controls_visibility_manually_set;
+  bool touch_controls_auto_hidden_by_controller;
+
+  struct Addon
+  {
+    std::string id;
+    bool enabled;
+  };
+  std::vector<Addon> addons;
+
+  bool developer_mode;
+  bool unlock_all_levels;
+  std::vector<std::string> music_favorites;
+  bool christmas_mode;
+  bool transitions_enabled;
+  bool confirmation_dialog;
+  bool pause_on_focusloss;
+  bool custom_mouse_cursor;
+  bool custom_system_cursor;
+  bool do_release_check;
+  bool disable_network;
+  bool ios_network_migration_done;
+  bool custom_title_levels;
+
+#ifdef ENABLE_DISCORD
+  bool enable_discord;
+#endif
+  bool hide_editor_levelnames;
+
+  struct Notification
+  {
+    std::string id;
+    bool disabled;
+  };
+  std::vector<Notification> notifications;
+
+  Color menubackcolor;
+  Color menufrontcolor;
+  Color menuhelpbackcolor;
+  Color menuhelpfrontcolor;
+  Color labeltextcolor;
+  Color activetextcolor;
+  Color hlcolor;
+  Color editorcolor;
+  Color editorhovercolor;
+  Color editorgrabcolor;
+  float menuroundness;
+
+  int editor_selected_snap_grid_size;
+  bool editor_render_grid;
+  bool editor_snap_to_grid;
+  bool editor_render_background;
+  bool editor_render_animations;
+  bool editor_render_lighting;
+  bool editor_invert_shift_scroll;
+  bool editor_autotile_mode;
+  bool editor_autotile_help;
+  bool editor_zoom_centered;
+  int editor_autosave_frequency;
+  bool editor_undo_tracking;
+  int editor_undo_stack_size;
+  bool editor_show_deprecated_tiles;
+  bool editor_show_properties_sidebar;
+  bool editor_show_toolbar_widgets;
+  int editor_blur;
+  bool editor_remember_last_level;
+  bool editor_max_viewport;
+  std::string preferred_text_editor;
+  std::string editor_last_edited_level;
+
+  bool multiplayer_auto_manage_players;
+  bool multiplayer_multibind;
+  bool multiplayer_buzz_controllers;
+  bool multiplayer_no_limit;
+
+  std::string repository_url;
+
+  bool is_christmas() const;
+};

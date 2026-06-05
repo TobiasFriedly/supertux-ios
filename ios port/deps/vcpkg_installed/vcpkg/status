@@ -1,0 +1,366 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: f40cc57e47a44fd3b0a92113acead212ffb7c4485208c59bc2862b42e840f294
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: 28547a1fc1e91f3421996d67eff2277aa14895db5275e17ed84a91722b98213f
+Status: install ok installed
+
+Package: fmt
+Version: 12.1.0
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: c32de5a67b8e3dedecb207c61f47ae81db10a877825eb832d532c3658b17eb82
+Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+Status: purge ok not-installed
+
+Package: zlib
+Version: 1.3.2
+Port-Version: 1
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: 84a74a6314d57b24c1a74fffc9abf7cae4b90f724715df3e7acb7c2d4f2b8417
+Description: A compression library
+Status: purge ok not-installed
+
+Package: libpng
+Version: 1.6.58
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx, zlib
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: 50a0228b909319c2cd59ab17cea2e80200ee2fa2888ccb5b2bde8df238248f92
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: purge ok not-installed
+
+Package: bzip2
+Version: 1.0.8
+Port-Version: 6
+Depends: vcpkg-cmake:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: ca7796ebb36f758e93730284598a79d2987875a5462aad28b15d10c6c936c4b7
+Description: bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
+Default-Features: tool
+Status: purge ok not-installed
+
+Package: bzip2
+Feature: tool
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Description: Builds bzip2 executable
+Status: purge ok not-installed
+
+Package: brotli
+Version: 1.2.0
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: dc57d340bb88adefafb2876869c9cec6b0742b01dfae11c93191587bd6ec3576
+Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+Status: purge ok not-installed
+
+Package: freetype
+Version: 2.14.3
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: fce92469472af9443736abd7c9229c4fe93d6bb83799795d66652f446d121b7d
+Description: A library to render fonts.
+Default-Features: brotli, bzip2, png, zlib
+Status: purge ok not-installed
+
+Package: freetype
+Feature: brotli
+Depends: brotli
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Description: Support decompression of WOFF2 streams
+Status: purge ok not-installed
+
+Package: freetype
+Feature: bzip2
+Depends: bzip2
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Description: Support bzip2 compressed fonts.
+Status: purge ok not-installed
+
+Package: freetype
+Feature: png
+Depends: libpng
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Description: Support PNG compressed OpenType embedded bitmaps.
+Status: purge ok not-installed
+
+Package: freetype
+Feature: zlib
+Depends: zlib
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Description: Use zlib instead of internal library for DEFLATE
+Status: purge ok not-installed
+
+Package: glm
+Version: 1.0.3
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: f411f977653f26b773af2aa884fada4dba2ddb7ae15bf19b406a7004e9204d98
+Description: OpenGL Mathematics (GLM)
+Status: purge ok not-installed
+
+Package: libogg
+Version: 1.3.6
+Port-Version: 1
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: 9722fed610faab4dcba4197bbbcca12104a26bee2491cf349b3f61f8c71b8bcc
+Description: Ogg is a multimedia container format, and the native file and stream format for the Xiph.org multimedia codecs.
+Status: purge ok not-installed
+
+Package: libvorbis
+Version: 1.3.7
+Port-Version: 4
+Depends: libogg, vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: c40d112a7eae84ae589fdab7f3fb4d94e626f051459fc29a38d549b1038b07f8
+Description: Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format
+Status: purge ok not-installed
+
+Package: openal-soft
+Version: 1.25.1
+Depends: fmt, vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: 7c26e51fee7c107832ea8833e29e573f0bfcd3f8ad6131f386c9daa3f93ef96c
+Description: OpenAL Soft is an LGPL-licensed, cross-platform, software implementation of the OpenAL 3D audio API.
+Status: purge ok not-installed
+
+Package: physfs
+Version: 3.2.0
+Port-Version: 1
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: de499771751ba36e318dbfad31f100157e479f15f7144332428fab053688215d
+Description: a library to provide abstract access to various archives
+Status: purge ok not-installed
+
+Package: sdl2
+Version: 2.32.10
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: dde707d992b56a62447f4902a5222a4b52d8f932add64778c7cee5643798df4f
+Description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+Status: purge ok not-installed
+
+Package: sdl2-image
+Version: 2.8.12
+Depends: libpng, sdl2, vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: 94431ffa9b542a768fa9a037fbd0b7ead5023fb03df659859470aeeed8534528
+Description: SDL_image is an image file loading library. It loads images as SDL surfaces and textures, and supports the following formats: BMP, GIF, JPEG, LBM, PCX, PNG, PNM, TGA, TIFF, WEBP, XCF, XPM, XV
+Status: purge ok not-installed
+
+Package: sdl2-ttf
+Version: 2.24.0
+Depends: freetype, sdl2, vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-simulator-supertux
+Multi-Arch: same
+Abi: 1b825ce081a08401eccbe749aaba5f11b35336dd8571e4d34ed701a1889c7c3a
+Description: A library for rendering TrueType fonts with SDL
+Status: purge ok not-installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2025-05-29
+Depends: vcpkg-cmake
+Architecture: arm64-osx
+Multi-Arch: same
+Abi: c41a3ae8dfb6c354e7d389867c42e4e910c0895202f6bc02cec9bd6434770305
+Status: purge ok not-installed
+
+Package: fmt
+Version: 12.1.0
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: a9053c17ca0971028ce429face4f0f2458c3b7fb4f73f47f943ef01c66a0d85c
+Description: {fmt} is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+Status: install ok installed
+
+Package: zlib
+Version: 1.3.2
+Port-Version: 1
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: fa761b907cb2c7e90adeb3910e7773159e73352ce43003196018203ee1e4b902
+Description: A compression library
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.58
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx, zlib
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: cbb19f3b8ab6af7c4015713db923559a9e9f72c5a54125b7bb66198913720ba9
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: install ok installed
+
+Package: bzip2
+Version: 1.0.8
+Port-Version: 6
+Depends: vcpkg-cmake:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: 556dabadb161e47025494a7560489baba9ab0131e1041ad7069331c8f0cee24c
+Description: bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
+Default-Features: tool
+Status: install ok installed
+
+Package: bzip2
+Feature: tool
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Description: Builds bzip2 executable
+Status: install ok installed
+
+Package: brotli
+Version: 1.2.0
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: 9f7f160cfeb7603813787ec973db34180a7c89e1975e1838013835275f58eff5
+Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+Status: install ok installed
+
+Package: freetype
+Version: 2.14.3
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: f2c0b23cb31aedab7c3a8b339eadf0e1ceff9472a76efbde3932043f8046d67b
+Description: A library to render fonts.
+Default-Features: brotli, bzip2, png, zlib
+Status: install ok installed
+
+Package: freetype
+Feature: brotli
+Depends: brotli
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Description: Support decompression of WOFF2 streams
+Status: install ok installed
+
+Package: freetype
+Feature: bzip2
+Depends: bzip2
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Description: Support bzip2 compressed fonts.
+Status: install ok installed
+
+Package: freetype
+Feature: png
+Depends: libpng
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Description: Support PNG compressed OpenType embedded bitmaps.
+Status: install ok installed
+
+Package: freetype
+Feature: zlib
+Depends: zlib
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Description: Use zlib instead of internal library for DEFLATE
+Status: install ok installed
+
+Package: glm
+Version: 1.0.3
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: 073e3db16457e18b1291f4331f9fe694f0294ec4a394575476a9934c69486502
+Description: OpenGL Mathematics (GLM)
+Status: install ok installed
+
+Package: libogg
+Version: 1.3.6
+Port-Version: 1
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: c4c7ce7bad2c2d41dd48b41a0753fd3c832f7b77a3d69e3a9885b50ad528803b
+Description: Ogg is a multimedia container format, and the native file and stream format for the Xiph.org multimedia codecs.
+Status: install ok installed
+
+Package: libvorbis
+Version: 1.3.7
+Port-Version: 4
+Depends: libogg, vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: afdf0038f11f74dd1199c7fae9797e5ef7f3440234391a2b71ec4bb93c508043
+Description: Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format
+Status: install ok installed
+
+Package: openal-soft
+Version: 1.25.1
+Depends: fmt, vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: 279b89889e002671c53b73ec26d89502c2b0381143428a577ae98292563ec3e2
+Description: OpenAL Soft is an LGPL-licensed, cross-platform, software implementation of the OpenAL 3D audio API.
+Status: install ok installed
+
+Package: physfs
+Version: 3.2.0
+Port-Version: 1
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: 817025e9321dd881400b90774109bf6b50f21856aa9874d623aaa45d35b57820
+Description: a library to provide abstract access to various archives
+Status: install ok installed
+
+Package: sdl2
+Version: 2.32.10
+Depends: vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: e68c007b8ac1a5c574f0c3d38023a7cc06394ddc7e9368143de62f7ddc71ff71
+Description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+Status: install ok installed
+
+Package: sdl2-image
+Version: 2.8.12
+Depends: libpng, sdl2, vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: 8a13c6c3b9aec4e1db660f113ff5e36993f9ee50ff2f0b7a8535e953bd7214cd
+Description: SDL_image is an image file loading library. It loads images as SDL surfaces and textures, and supports the following formats: BMP, GIF, JPEG, LBM, PCX, PNG, PNM, TGA, TIFF, WEBP, XCF, XPM, XV
+Status: install ok installed
+
+Package: sdl2-ttf
+Version: 2.24.0
+Depends: freetype, sdl2, vcpkg-cmake:arm64-osx, vcpkg-cmake-config:arm64-osx
+Architecture: arm64-ios-supertux
+Multi-Arch: same
+Abi: 8191b55820d39c036aae20e8841f33ed044677edc8a07b8a0f54c67186f8b3b6
+Description: A library for rendering TrueType fonts with SDL
+Status: install ok installed
+

@@ -1,0 +1,16 @@
+arm64-ios-supertux/
+arm64-ios-supertux/include/
+arm64-ios-supertux/include/physfs.h
+arm64-ios-supertux/lib/
+arm64-ios-supertux/lib/libphysfs.a
+arm64-ios-supertux/lib/pkgconfig/
+arm64-ios-supertux/lib/pkgconfig/physfs.pc
+arm64-ios-supertux/share/
+arm64-ios-supertux/share/physfs/
+arm64-ios-supertux/share/physfs/PhysFSConfig-release.cmake
+arm64-ios-supertux/share/physfs/PhysFSConfig.cmake
+arm64-ios-supertux/share/physfs/copyright
+arm64-ios-supertux/share/physfs/usage
+arm64-ios-supertux/share/physfs/vcpkg-cmake-wrapper.cmake
+arm64-ios-supertux/share/physfs/vcpkg.spdx.json
+arm64-ios-supertux/share/physfs/vcpkg_abi_info.txt

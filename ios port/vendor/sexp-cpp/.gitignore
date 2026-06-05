@@ -1,0 +1,7 @@
+*~
+/build
+/build.*
+/old/
+/result
+/result-[0-9]
+.DS_Store
